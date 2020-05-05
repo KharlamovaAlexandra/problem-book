@@ -46,6 +46,7 @@ public class NewTask extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view,
                                        int position, long id) {
+                my = position;
                 // отображение приоритета задачи
                 Toast.makeText(getBaseContext(), "Приоритет задачи " + prioritet[position] , Toast.LENGTH_SHORT).show();
 
